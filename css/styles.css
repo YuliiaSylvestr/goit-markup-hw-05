@@ -529,23 +529,22 @@ input {
     color: var(--white-background-color);
 }
 
-.subscribe-form-input-label {
-    display: block;
-    color: var(--white-background-color);
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
+.subscribe-form-text {
     margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: var(--white-background-color);
 }
 
 .subscribe-form-submit-btn {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 24px;
     min-width: 165px;
-    padding: 8px 24px;
+    padding: 8px;
     font-size: 16px;
     font-weight: 500;
     color: var(--white-background-color);
@@ -653,6 +652,10 @@ input {
     line-height: 1.5;
     letter-spacing: 0.02em;
     margin-bottom: 16px;
+}
+
+.contact-form-modal-backdrop {
+    margin-bottom: 8px;
 }
 
 .contact-form-label {

@@ -396,26 +396,28 @@
             </li>
           </ul>
         </div>
-        <form class="subscribe-form">
-          <div class="subscribe-form-input-wrapper">
-            <label class="subscribe-form-input-label" for="subscribe-form-email">Subscribe</label>
-
-            <input
-              class="subscribe-form-input"
-              type="email"
-              name="user-email"
-              required
-              id="subscribe-form-email"
-              placeholder="E-mail"
-            />
-          </div>
-          <button class="subscribe-form-submit-btn">
-            Subscribe
-            <svg class="icon-subscribe" height="20" width="24" aria-label="icon-subscribe">
-              <use href="./images/icons.svg#icon-subscribe"></use>
-            </svg>
-          </button>
-        </form>
+        <div class="footer-form-cont">
+          <p class="subscribe-form-text">Subscribe</p>
+          <form class="subscribe-form">
+            <div class="subscribe-form-input-wrapper">
+              <label class="subscribe-form-input-label" for="subscribe-form-email"
+                ><input
+                  class="subscribe-form-input"
+                  type="email"
+                  name="user-email"
+                  required
+                  id="subscribe-form-email"
+                  placeholder="E-mail"
+              /></label>
+            </div>
+            <button class="subscribe-form-submit-btn">
+              Subscribe
+              <svg class="icon-subscribe" height="20" width="24" aria-label="icon-subscribe">
+                <use href="./images/icons.svg#icon-subscribe"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
     <div data-modal class="modal-backdrop is-hidden">
@@ -427,7 +429,7 @@
         </button>
         <p class="modal-backdrop-title">Leave your contacts and we will call you back</p>
         <form class="contact-form">
-          <label class="contact-form-label" for="user-name">Name</label>
+          <div class="contact-form-modal-backdrop"><label class="contact-form-label" for="user-name">Name</label>
           <div class="contact-form-input-cont">
             <input
               class="contact-form-input"
@@ -485,7 +487,7 @@
           <div class="contact-form-btn">
             <button class="contact-form-btn-submit" type="submit">Send</button>
           </div>
-        </form>
+        </form></div>
       </div>
     </div>
     <script src="./js/modal.js"></script>
